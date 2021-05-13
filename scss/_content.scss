@@ -1,0 +1,16 @@
+// about style
+.about {
+  margin: 0 auto;
+  width: 77%;
+  height: 607px;
+  background: no-repeat url(../img/skyline-1.png);
+
+  .txt {
+    background: #fff;
+    width: 54%;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+body {
+  width: 1300px;
+  font-family: YuGothic;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin: 0 auto; }
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  width: 160px;
+  line-height: 36px;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-size: 12px; }
+
+h2 {
+  font-family: Montserrat;
+  font-size: 32px; }
+
+.about {
+  margin: 0 auto;
+  width: 77%;
+  height: 607px;
+  background: no-repeat url(../img/skyline-1.png); }
+  .about .txt {
+    background: #fff;
+    width: 54%; }
+    .about .txt p {
+      font-size: 16px; }
+
+header {
+  width: 100%;
+  height: 740px;
+  background: no-repeat url(../img/the-honest-company-uM-WXMr-1.png);
+  background-size: 77% 640px;
+  position: relative; }
+  header::before {
+    position: absolute;
+    content: "";
+    width: 54%;
+    height: 740px;
+    background-color: #000;
+    right: 0;
+    top: 0;
+    z-index: -1; }
+  header::after {
+    position: absolute;
+    content: "";
+    width: 77%;
+    height: 640px;
+    left: 0;
+    top: 0;
+    background: url(../img/musk_black.png);
+    opacity: 0.5;
+    z-index: 2; }
+
+.ttl {
+  width: 300px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 954px;
+  padding-top: 150px; }
+  .ttl p {
+    font-size: 20px;
+    margin: 0; }
+  .ttl h1 {
+    font-size: 72px;
+    font-family: Montserrat;
+    margin: 0; }
