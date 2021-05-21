@@ -7,6 +7,11 @@
   text-align: center;
   font-family: Noto Sans JP;
   font-size: 12px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
 }
 
 h2 {
