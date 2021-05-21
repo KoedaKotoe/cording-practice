@@ -1,5 +1,5 @@
 body {
-  width: 1300px;
+  width: 1440px;
   font-family: YuGothic;
   font-size: 16px;
   letter-spacing: 0;
@@ -20,15 +20,85 @@ h2 {
   font-size: 32px; }
 
 .about {
-  margin: 0 auto;
-  width: 77%;
-  height: 607px;
-  background: no-repeat url(../img/skyline-1.png); }
+  margin: 85px auto 0;
+  width: 1100px;
+  height: 627px;
+  background: no-repeat url(../img/skyline-1.png);
+  background-size: 1100px 607px;
+  position: relative; }
   .about .txt {
     background: #fff;
-    width: 54%; }
+    width: 590px;
+    position: absolute;
+    left: 13%;
+    top: 100px;
+    padding: 30px; }
     .about .txt p {
-      font-size: 16px; }
+      font-size: 16px;
+      line-height: 2rem;
+      font-family: Noto Sans JP; }
+    .about .txt .btn {
+      margin: 20px 0; }
+
+.main {
+  background-color: #f0f0f0;
+  height: 770px;
+  margin-top: -50px; }
+  .main .flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  .main img {
+    width: 520px;
+    height: 350px; }
+  .main .works,
+  .main .culture {
+    padding: 136px 30px 0 30px; }
+    .main .works p,
+    .main .culture p {
+      line-height: 6rem; }
+
+.topic {
+  width: 1100px;
+  margin: 60px auto; }
+  .topic-all {
+    margin-left: 400px; }
+    .topic-all .date {
+      font-size: 10px;
+      font-weight: bold;
+      color: #cecece; }
+  .topic-ttl {
+    width: 700px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #dddddd; }
+  .topic .btn {
+    margin-left: 940px; }
+
+.contact {
+  background: #f0f0f0;
+  height: 570px; }
+  .contact .flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 100px; }
+  .contact-txt {
+    line-height: 2rem;
+    padding: 50px; }
+    .contact-txt .btn {
+      margin-top: 30px; }
+  .contact img {
+    width: 530px;
+    height: 390px; }
+
+footer {
+  text-align: center;
+  background: #707070;
+  color: #fff;
+  font-size: 10px;
+  line-height: 50px;
+  letter-spacing: 1.5px; }
 
 header {
   width: 100%;
@@ -60,7 +130,7 @@ header {
   width: 300px;
   color: #fff;
   font-weight: bold;
-  margin-left: 954px;
+  margin-left: 66%;
   padding-top: 150px; }
   .ttl p {
     font-size: 20px;
